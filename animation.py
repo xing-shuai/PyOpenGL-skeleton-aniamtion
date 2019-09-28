@@ -82,7 +82,7 @@ def init():
 
     global human_model
 
-    human_model = ColladaModel("/home/shuai/human.dae")
+    human_model = ColladaModel("resources/human.dae")
 
     glEnable(GL_DEPTH_TEST)
 
